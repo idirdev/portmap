@@ -1,0 +1,22 @@
+{
+  "name": "@idirdev/portmap",
+  "version": "1.0.0",
+  "description": "Scan and map listening ports with service identification",
+  "main": "src/index.js",
+  "author": "idirdev",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/idirdev/portmap.git"
+  },
+  "keywords": [],
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "scripts": {
+    "test": "node --test tests/"
+  },
+  "bin": {
+    "portmap": "bin/cli.js"
+  }
+}
